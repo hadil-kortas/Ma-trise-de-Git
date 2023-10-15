@@ -8,6 +8,10 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
   2. **Git Configuration:**
   - Configuring the username: `git config --global user.name "Your Name"`
   - Configuring the email address: `git config --global user.email your@email.com`
+---
+3. **SSH Connection to Remote Repositories:**
+   - Testing SSH connection: `ssh -T git@github.com` or `ssh -T git@gitlab.com`
+
 
 
 
