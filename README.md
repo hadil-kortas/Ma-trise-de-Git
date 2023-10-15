@@ -11,7 +11,8 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
 ---
 3. **SSH Connection to Remote Repositories:**
    - Testing SSH connection: `ssh -T git@github.com` or `ssh -T git@gitlab.com`
-
+---
+## Part 2: Creating a New Project
 
 
 
