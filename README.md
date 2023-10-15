@@ -5,6 +5,12 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
 ---
    - Generating SSH key: `ssh-keygen -t rsa -b 4096 -C youremail@example.com`
    - Adding the SSH public key to the remote repository.
+  2. **Git Configuration:**
+---
+  - Configuring the username: `git config --global user.name "Your Name"`
+  - Configuring the email address: `git config --global user.email your@email.com`
+
+
 
 
 
