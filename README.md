@@ -18,6 +18,14 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
    - Cloning the project locally: `git clone git@github.com:hadil-kortas/Maitrise-de-Git.git`
    - `cd Maitrise-de-Git`
 ---
+## Part 3: Basic Git Concepts
+### 1. Working with Files
+  - Create a file named `index.html`: `touch index.html`
+  - `echo 'HTML Content of my file' > index.html `
+
+  - 
+
+
 
 
 
