@@ -31,24 +31,45 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
 ---
 ## Part 4: Collaborating on Git
   1. **Creating a New Branch for a Specific Feature:**
-     - `git branch my-fonctionnalite`
-     - `git checkout my-fonctionnalite`
+     - `git branch ma-fonctionnalite`
+     - `git checkout ma-fonctionnalite`
 ---
   2. **Making changes in my local repository:**
      - Making modifications in my local repository, adding them to the index, commit and then push: `git add .`
-     - `git commit -m "changes in my-fonctionnalite" `
-     - `git push origin my-fonctionnalite`
+     - `git commit -m "changes in ma-fonctionnalite" `
+     - `git push origin ma-fonctionnalite`
 ---
   3. **Conflit Management:**
      - modifying the same line in the two different branches, then merging the branches and resolve the conflit
      - `git checkout my-fonctionnalite`
-     - `git commit -am "Changes in my-fonctionnalite" `
+     - `git commit -am "Changes in ma-fonctionnalite" `
      - `git checkout main`
      - `git commit -am "Changes in main"`
-     - `git merge my-fonctionnalite`
+     - `git merge ma-fonctionnalite`
      - `git add .`
      - `git commit -m "Conflict resolution"`
 ---
+## Part 5: Utilizing GitFlow
+  1. **Initialization of GitFlow:**
+     - `git flow init`
+---
+  2. **Creation of a New Feature:**
+     - `git flow feature start ma-fonctionnalite`
+---
+  3. **Creation of a New Version:**
+     - `git flow release start ma-version`
+---
+  4. **Merging a Feature Branch into Development:**
+     - `git flow feature finish ma-fonctionnalite`
+---
+  5. **Creating a Hotfix:**
+     - `git flow hotfix start mon-correctif`
+---
+This README provides an overview of the practical work steps and can be expanded based on specific experiences in each part of the practical work.
+
+
+
+
 
 
 
