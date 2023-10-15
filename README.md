@@ -39,8 +39,8 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
      - `git commit -m "changes in ma-fonctionnalite" `
      - `git push origin ma-fonctionnalite`
 ---
-  3. **Conflit Management:**
-     - modifying the same line in the two different branches, then merging the branches and resolve the conflit
+  3. **Conflict Management:**
+     - modifying the same line in the two different branches, then merging the branches and resolve the conflict
      - `git checkout my-fonctionnalite`
      - `git commit -am "Changes in ma-fonctionnalite" `
      - `git checkout main`
