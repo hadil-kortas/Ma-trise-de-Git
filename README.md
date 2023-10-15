@@ -24,6 +24,7 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
      - `echo 'My index.html Content' > index.html `
      - Using the following commands to add the file to the index and commitmy first change: `git add index.html`
      - `git commit -m "First commit: added index.html" `
+---
   2. **Commit History:**
      - Viewing the commit history: `git log`
      - Showing the difference between two commits with their id: `git diff commit_id_1 commit_id_2`
