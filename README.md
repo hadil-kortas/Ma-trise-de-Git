@@ -33,10 +33,12 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
   1. **Creating a New Branch for a Specific Feature:**
      - `git branch my-fonctionnalite`
      - `git checkout my-fonctionnalite`
+---
   2. **Making changes in my local repository:**
      - Making modifications in my local repository, adding them to the index, commit and then push: `git add .`
      - `git commit -m "changes in my-fonctionnalite" `
      - `git push origin my-fonctionnalite`
+---
   3. **Conflit Management:**
      - modifying the same line in the two different branches, then merging the branches and resolve the conflit
      - `git checkout my-fonctionnalite`
@@ -46,6 +48,8 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
      - `git merge my-fonctionnalite`
      - `git add .`
      - `git commit -m "Conflict resolution"`
+---
+
 
 
 
