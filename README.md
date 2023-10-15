@@ -20,10 +20,11 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
 ---
 ## Part 3: Basic Git Concepts
   1. **Working with Files:**
-  - Create a file named `index.html`: `touch index.html`
-  - `echo 'HTML Content of my file' > index.html `
-
-  - 
+     - Create a file named index.html: `touch index.html`
+     - `echo 'My index.html Content' > index.html `
+     - Using the following commands to add the file to the index and commitmy first change: `git add index.html`
+     - `git commit -m "First commit: added index.html" `
+  2. ** Commit History:**
 
 
 
