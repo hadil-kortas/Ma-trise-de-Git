@@ -1,1 +1,1 @@
-# Ma-trise-de-Git
+# Maitrise-de-Git
