@@ -20,11 +20,31 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
 ---
 ## Part 3: Basic Git Concepts
   1. **Working with Files:**
-     - Create a file named index.html: `touch index.html`
+     - Creating a file named index.html: `touch index.html`
      - `echo 'My index.html Content' > index.html `
      - Using the following commands to add the file to the index and commitmy first change: `git add index.html`
      - `git commit -m "First commit: added index.html" `
-  2. ** Commit History:**
+  2. **Commit History:**
+     - Viewing the commit history: `git log`
+     - Showing the difference between two commits with their id: `git diff commit_id_1 commit_id_2`
+
+## Part 4: Collaborating on Git
+  1. **Creating a New Branch for a Specific Feature:**
+     - `git branch my-fonctionnalite`
+     - `git checkout my-fonctionnalite`
+  2. **Making changes in my local repository:**
+     - Making modifications in my local repository, adding them to the index, commit and then push: `git add .`
+     - `git commit -m "changes in my-fonctionnalite" `
+     - `git push origin my-fonctionnalite`
+  3. **Conflit Management:**
+     - modifying the same line in the two different branches, then merging the branches and resolve the conflit
+     - `git checkout my-fonctionnalite`
+     - `git commit -am "Changes in my-fonctionnalite" `
+     - `git checkout main`
+     - `git commit -am "Changes in main"`
+     - `git merge my-fonctionnalite`
+     - `git add .`
+     - `git commit -m "Conflict resolution"`
 
 
 
