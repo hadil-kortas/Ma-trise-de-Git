@@ -16,7 +16,9 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
 1. **Creating the Project on GitHub:**
    - Creating a new project with appropriate options.
    - Cloning the project locally: `git clone git@github.com:hadil-kortas/Maitrise-de-Git.git`
+   - `cd Maitrise-de-Git`
 ---
+
 
 
 
