@@ -27,7 +27,7 @@ This practical work aims to familiarize you with Git, a widely-used decentralize
   2. **Commit History:**
      - Viewing the commit history: `git log`
      - Showing the difference between two commits with their id: `git diff commit_id_1 commit_id_2`
-
+---
 ## Part 4: Collaborating on Git
   1. **Creating a New Branch for a Specific Feature:**
      - `git branch my-fonctionnalite`
